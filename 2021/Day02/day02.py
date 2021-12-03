@@ -1,13 +1,13 @@
 from typing import List, Union
 
 
-def get_input() -> List[Union[str, int]]:
+def get_input() -> List[List[Union[str, int]]]:
     with open("input.txt", "r") as f:
         lines = f.readlines()
     return [[line.split()[0], int(line.split()[1])] for line in lines]
 
 
-def part1(commands: List[Union[str, int]]) -> int:
+def part1(commands: List[List[Union[str, int]]]) -> int:
     horizontal_position, depth = 0, 0
     for command in commands:
         name, units = command
@@ -20,7 +20,7 @@ def part1(commands: List[Union[str, int]]) -> int:
     return horizontal_position * depth
 
 
-def part2(commands: List[Union[str, int]]) -> int:
+def part2(commands: List[List[Union[str, int]]]) -> int:
     horizontal_position, depth, aim = 0, 0, 0
     for command in commands:
         name, units = command
