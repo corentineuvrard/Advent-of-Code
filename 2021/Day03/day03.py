@@ -1,4 +1,4 @@
-from typing import List, Tuple
+from typing import List
 
 
 def get_input() -> List[str]:
