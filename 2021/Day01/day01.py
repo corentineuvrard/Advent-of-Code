@@ -16,9 +16,9 @@ def part2(nums: List[int]) -> int:
 
 
 def solve():
-    input_list = get_input()
-    print(part1(input_list))
-    print(part2(input_list))
+    puzzle_input = get_input()
+    print(part1(puzzle_input))
+    print(part2(puzzle_input))
 
 
 solve()

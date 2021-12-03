@@ -35,9 +35,9 @@ def part2(commands: List[Union[str, int]]) -> int:
 
 
 def solve():
-    commands = get_input()
-    print(part1(commands))
-    print(part2(commands))
+    puzzle_input = get_input()
+    print(part1(puzzle_input))
+    print(part2(puzzle_input))
 
 
 solve()
