@@ -4,7 +4,7 @@ from typing import List
 def get_input() -> List[int]:
     """
     Parse input.
-    @return:
+    @return: List of depth measurements.
     """
     with open("input.txt", "r") as f:
         lines = f.readlines()
