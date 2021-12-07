@@ -2,12 +2,21 @@ from typing import List
 
 
 def get_input() -> List[str]:
+    """
+    Parse input.
+    @return: List of strings representing binary numbers that make up the diagnostic report.
+    """
     with open("input.txt", "r") as f:
         lines = f.readlines()
     return lines
 
 
 def part1(diagnostic_report: List[str]) -> int:
+    """
+    Solve part 1.
+    @param diagnostic_report: List of strings representing binary numbers that make up the diagnostic report.
+    @return: Power consumption of the submarine.
+    """
     dr_columns = list(zip(*diagnostic_report))
     gamma_rate = ""
     epsilon_rate = ""
@@ -24,6 +33,11 @@ def part1(diagnostic_report: List[str]) -> int:
 
 
 def part2(diagnostic_report: List[str]) -> int:
+    """
+    Solve part 2.
+    @param diagnostic_report: List of strings representing binary numbers that make up the diagnostic report.
+    @return: Life support rating of the submarine.
+    """
     def get_rating(element: str) -> int:
         dr_columns = list(zip(*diagnostic_report))
         indices = set(range(len(dr_columns[0])))
@@ -44,7 +58,10 @@ def part2(diagnostic_report: List[str]) -> int:
     return get_rating("oxygen_generator") * get_rating("co2_scrubber")
 
 
-def solve():
+def solve() -> None:
+    """
+    Solve the puzzle.
+    """
     puzzle_input = get_input()
     print(part1(puzzle_input))
     print(part2(puzzle_input))
