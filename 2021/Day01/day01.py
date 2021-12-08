@@ -1,12 +1,13 @@
 from typing import List
 
 
-def get_input() -> List[int]:
+def parse_input(input_file: str) -> List[int]:
     """
     Parse input.
+    @param input_file: Input file to parse.
     @return: List of depth measurements.
     """
-    with open("input.txt", "r") as f:
+    with open(input_file, "r") as f:
         lines = f.readlines()
     return [int(line) for line in lines]
 
@@ -33,7 +34,7 @@ def solve() -> None:
     """
     Solve the puzzle.
     """
-    puzzle_input = get_input()
+    puzzle_input = parse_input("input.txt")
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
