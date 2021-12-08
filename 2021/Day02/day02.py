@@ -7,7 +7,7 @@ def parse_input(input_file: str) -> List[List[Union[str, int]]]:
     @param input_file: Input file to parse.
     @return: List of commands with their name and units.
     """
-    with open("input.txt", "r") as f:
+    with open(input_file, "r") as f:
         lines = f.readlines()
     return [[line.split()[0], int(line.split()[1])] for line in lines]
 
