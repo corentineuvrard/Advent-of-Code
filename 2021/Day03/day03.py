@@ -1,12 +1,13 @@
 from typing import List
 
 
-def get_input() -> List[str]:
+def parse_input(input_file: str) -> List[str]:
     """
     Parse input.
+    @param input_file: Input file to parse.
     @return: List of strings representing binary numbers that make up the diagnostic report.
     """
-    with open("input.txt", "r") as f:
+    with open(input_file, "r") as f:
         lines = f.readlines()
     return lines
 
@@ -38,6 +39,7 @@ def part2(diagnostic_report: List[str]) -> int:
     @param diagnostic_report: List of strings representing binary numbers that make up the diagnostic report.
     @return: Life support rating of the submarine.
     """
+
     def get_rating(element: str) -> int:
         dr_columns = list(zip(*diagnostic_report))
         indices = set(range(len(dr_columns[0])))
@@ -55,6 +57,7 @@ def part2(diagnostic_report: List[str]) -> int:
             indices -= non_matching_indices
             index += 1
         return int(diagnostic_report[indices.pop()], 2)
+
     return get_rating("oxygen_generator") * get_rating("co2_scrubber")
 
 
@@ -62,7 +65,7 @@ def solve() -> None:
     """
     Solve the puzzle.
     """
-    puzzle_input = get_input()
+    puzzle_input = parse_input("input.txt")
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
