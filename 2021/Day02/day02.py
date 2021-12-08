@@ -1,9 +1,10 @@
 from typing import List, Union
 
 
-def get_input() -> List[List[Union[str, int]]]:
+def parse_input(input_file: str) -> List[List[Union[str, int]]]:
     """
     Parse input.
+    @param input_file: Input file to parse.
     @return: List of commands with their name and units.
     """
     with open("input.txt", "r") as f:
@@ -52,7 +53,7 @@ def solve() -> None:
     """
     Solve the puzzle.
     """
-    puzzle_input = get_input()
+    puzzle_input = parse_input("input.txt")
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
