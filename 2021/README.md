@@ -7,12 +7,12 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python3:
 | 1   | Sonar Sweep             | [day01.py](Day01/day01.py) | 0.000345 s | 0.000318 s |
 | 2   | Dive!                   | [day02.py](Day02/day02.py) | 0.000174 s | 0.000214 s |
 | 3   | Binary Diagnostic       | [day03.py](Day03/day03.py) | 0.000876 s | 0.005034 s |
-| 4   | Giant Squid             |                            |            |            |
+| 4   | Giant Squid             | [day04.py](Day04/day04.py) | 0.007498 s | 0.009233 s |
 | 5   | Hydrothermal Venture    |                            |            |            |
 | 6   | Lanternfish             |                            |            |            |
 | 7   | The Treachery of Whales |                            |            |            |
-| 8   |                         |                            |            |            |
-| 9   |                         |                            |            |            |
+| 8   | Seven Segment Search    |                            |            |            |
+| 9   | Smoke Basin             |                            |            |            |
 | 10  |                         |                            |            |            |
 | 11  |                         |                            |            |            |
 | 12  |                         |                            |            |            |
