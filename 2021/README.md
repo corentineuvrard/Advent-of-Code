@@ -13,7 +13,7 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python3:
 | 7   | The Treachery of Whales |                            |            |            |
 | 8   | Seven Segment Search    |                            |            |            |
 | 9   | Smoke Basin             |                            |            |            |
-| 10  |                         |                            |            |            |
+| 10  | Syntax Scoring          |                            |            |            |
 | 11  |                         |                            |            |            |
 | 12  |                         |                            |            |            |
 | 13  |                         |                            |            |            |
