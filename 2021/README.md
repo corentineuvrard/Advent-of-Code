@@ -14,7 +14,7 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7
 | 8   | Seven Segment Search    |                            |            |            |
 | 9   | Smoke Basin             |                            |            |            |
 | 10  | Syntax Scoring          |                            |            |            |
-| 11  |                         |                            |            |            |
+| 11  | Dumbo Octopus           |                            |            |            |
 | 12  |                         |                            |            |            |
 | 13  |                         |                            |            |            |
 | 14  |                         |                            |            |            |
