@@ -97,16 +97,16 @@ def parse_input(input_file: str) -> Tuple[List[int], List[Board]]:
     """
     with open(input_file, "r") as f:
         file = f.read().split("\n\n")
-    draw = [int(n) for n in file[0].split(",")]
-    boards = []
-    for board_id, board_str in enumerate(file[1:]):
-        numbers = {}
-        for number_id, number_str in enumerate(board_str.split()):
-            number = int(number_str)
-            coord_x = number_id % 5
-            coord_y = number_id // 5
-            numbers[number] = (coord_x, coord_y)
-        boards.append(Board(board_id, numbers))
+        draw = [int(n) for n in file[0].split(",")]
+        boards = []
+        for board_id, board_str in enumerate(file[1:]):
+            numbers = {}
+            for number_id, number_str in enumerate(board_str.split()):
+                number = int(number_str)
+                coord_x = number_id % 5
+                coord_y = number_id // 5
+                numbers[number] = (coord_x, coord_y)
+            boards.append(Board(board_id, numbers))
     return draw, boards
 
 
