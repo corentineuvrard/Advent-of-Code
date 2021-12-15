@@ -9,7 +9,8 @@ def parse_input(input_file: str) -> List[int]:
     @return: List representing the horizontal position of each crab.
     """
     with open(input_file, "r") as f:
-        return [int(position) for position in f.readlines()[0].split(",")]
+        positions = [int(position) for position in f.readlines()[0].split(",")]
+    return positions
 
 
 def part1(crabs_position: List[int]) -> int:
