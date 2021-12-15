@@ -103,15 +103,15 @@ def parse_input(input_file: str) -> List[List[Point]]:
     """
     with open(input_file, "r") as f:
         lines = f.readlines()
-    points = []
-    for line in lines:
-        segment = []
-        for coord_str in line.split():
-            coord = coord_str.split(",")
-            if len(coord) == 2:
-                coord_x, coord_y = int(coord[0]), int(coord[1])
-                segment.append(Point(coord_x, coord_y))
-        points.append(segment)
+        points = []
+        for line in lines:
+            segment = []
+            for coord_str in line.split():
+                coord = coord_str.split(",")
+                if len(coord) == 2:
+                    coord_x, coord_y = int(coord[0]), int(coord[1])
+                    segment.append(Point(coord_x, coord_y))
+            points.append(segment)
     return points
 
 
