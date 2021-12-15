@@ -10,14 +10,14 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7
 | 4   | Giant Squid             | [day04.py](Day04/day04.py) | 0.007498 s | 0.009233 s |
 | 5   | Hydrothermal Venture    | [day05.py](Day05/day05.py) | 0.615970 s | 0.998271 s |
 | 6   | Lanternfish             | [day06.py](Day06/day06.py) | 0.000087 s | 0.000188 s |
-| 7   | The Treachery of Whales |                            |            |            |
+| 7   | The Treachery of Whales | [day07.py](Day07/day07.py) | 0.000378 s | 0.020677 s |
 | 8   | Seven Segment Search    |                            |            |            |
 | 9   | Smoke Basin             |                            |            |            |
 | 10  | Syntax Scoring          |                            |            |            |
 | 11  | Dumbo Octopus           |                            |            |            |
-| 12  |                         |                            |            |            |
-| 13  |                         |                            |            |            |
-| 14  |                         |                            |            |            |
+| 12  | Passage Pathing         |                            |            |            |
+| 13  | Transparent Origami     |                            |            |            |
+| 14  | Extended Polymerization |                            |            |            |
 | 15  |                         |                            |            |            |
 | 16  |                         |                            |            |            |
 | 17  |                         |                            |            |            |
