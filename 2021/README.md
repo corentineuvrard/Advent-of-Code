@@ -11,7 +11,7 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7
 | 5   | Hydrothermal Venture    | [day05.py](Day05/day05.py) | 0.615970 s | 0.998271 s |
 | 6   | Lanternfish             | [day06.py](Day06/day06.py) | 0.000087 s | 0.000188 s |
 | 7   | The Treachery of Whales | [day07.py](Day07/day07.py) | 0.000378 s | 0.020677 s |
-| 8   | Seven Segment Search    |                            |            |            |
+| 8   | Seven Segment Search    | [day08.py](Day08/day08.py) | 0.000171 s | 0.010321 s |
 | 9   | Smoke Basin             | [day09.py](Day09/day09.py) | 0.027139 s | 0.123556 s |
 | 10  | Syntax Scoring          |                            |            |            |
 | 11  | Dumbo Octopus           |                            |            |            |
@@ -20,7 +20,7 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7
 | 14  | Extended Polymerization |                            |            |            |
 | 15  | Chiton                  |                            |            |            |
 | 16  | Packet Decoder          |                            |            |            |
-| 17  |                         |                            |            |            |
+| 17  | Trick Shot              |                            |            |            |
 | 18  |                         |                            |            |            |
 | 19  |                         |                            |            |            |
 | 20  |                         |                            |            |            |
