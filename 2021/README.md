@@ -14,14 +14,14 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7
 | 8   | Seven Segment Search    | [day08.py](Day08/day08.py) | 0.000171 s | 0.010321 s |
 | 9   | Smoke Basin             | [day09.py](Day09/day09.py) | 0.027139 s | 0.123556 s |
 | 10  | Syntax Scoring          | [day10.py](Day10/day10.py) | 0.002305 s | 0.002455 s |
-| 11  | Dumbo Octopus           |                            |            |            |
+| 11  | Dumbo Octopus           | [day11.py](Day11/day11.py) | 0.019426 s | 0.051653 s |
 | 12  | Passage Pathing         |                            |            |            |
 | 13  | Transparent Origami     |                            |            |            |
 | 14  | Extended Polymerization |                            |            |            |
 | 15  | Chiton                  |                            |            |            |
 | 16  | Packet Decoder          |                            |            |            |
 | 17  | Trick Shot              |                            |            |            |
-| 18  |                         |                            |            |            |
+| 18  | Snailfish               |                            |            |            |
 | 19  |                         |                            |            |            |
 | 20  |                         |                            |            |            |
 | 21  |                         |                            |            |            |
