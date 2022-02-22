@@ -77,18 +77,8 @@ def solve() -> None:
     Solve the puzzle
     """
     puzzle_input = parse_input("input.txt")
-    print(puzzle_input)
-    start1 = timeit.default_timer()
-
     print(part1(puzzle_input))
-
-    start2 = timeit.default_timer()
-    print(start2 - start1)
-
     print(part2(puzzle_input))
-
-    end = timeit.default_timer()
-    print(end - start2)
 
 
 solve()
