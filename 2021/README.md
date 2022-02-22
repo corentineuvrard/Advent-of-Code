@@ -15,17 +15,17 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7
 | 9   | Smoke Basin             | [day09.py](Day09/day09.py) | 0.027139 s | 0.123556 s |
 | 10  | Syntax Scoring          | [day10.py](Day10/day10.py) | 0.002305 s | 0.002455 s |
 | 11  | Dumbo Octopus           | [day11.py](Day11/day11.py) | 0.019426 s | 0.051653 s |
-| 12  | Passage Pathing         |                            |            |            |
+| 12  | Passage Pathing         | [day12.py](Day12/day12.py) | 0.018712 s | 0.333444 s |
 | 13  | Transparent Origami     |                            |            |            |
 | 14  | Extended Polymerization |                            |            |            |
 | 15  | Chiton                  |                            |            |            |
 | 16  | Packet Decoder          |                            |            |            |
 | 17  | Trick Shot              |                            |            |            |
 | 18  | Snailfish               |                            |            |            |
-| 19  |                         |                            |            |            |
-| 20  |                         |                            |            |            |
-| 21  |                         |                            |            |            |
-| 22  |                         |                            |            |            |
-| 23  |                         |                            |            |            |
-| 24  |                         |                            |            |            |
-| 25  |                         |                            |            |            |
+| 19  | Beacon Scanner          |                            |            |            |
+| 20  | Trench Map              |                            |            |            |
+| 21  | Dirac Dice              |                            |            |            |
+| 22  | Reactor Reboot          |                            |            |            |
+| 23  | Amphipod                |                            |            |            |
+| 24  | Arithmetic Logic Unit   |                            |            |            |
+| 25  | Sea Cucumber            |                            |            |            |
