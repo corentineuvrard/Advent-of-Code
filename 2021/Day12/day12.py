@@ -21,7 +21,6 @@ def parse_input(input_file: str) -> DefaultDict[str, List[str]]:
                 connections[caves[0]].append(caves[1])
             elif caves[0] == "end" or caves[1] == "start":
                 connections[caves[1]].append(caves[0])
-
     return connections
 
 
