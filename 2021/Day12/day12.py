@@ -1,4 +1,3 @@
-import timeit
 from typing import DefaultDict, List
 from collections import defaultdict
 
