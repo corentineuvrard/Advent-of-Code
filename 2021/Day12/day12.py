@@ -11,9 +11,8 @@ def parse_input(input_file: str) -> DefaultDict[str, List[str]]:
     """
     connections = defaultdict(list)
     with open(input_file, "r") as f:
-        lines = f.readlines()
+        lines = f.read().splitlines()
         for line in lines:
-            line = line.split("\n")[0]
             caves = line.split("-")
             if caves[0] != "start" and caves[0] != "end" and caves[1] != "start" and caves[1] != "end":
                 connections[caves[0]].append(caves[1])
