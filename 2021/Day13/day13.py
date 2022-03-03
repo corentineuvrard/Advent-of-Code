@@ -3,6 +3,7 @@ from typing import Tuple, List
 
 
 ALPHABET = {
+    '.##.#..##..######..##..#': 'A',
     '###.#..####.#..##..####.': 'B',
     '.##.#..##...#...#..#.##.': 'C',
     '#####...###.#...#...####': 'E',
@@ -10,12 +11,20 @@ ALPHABET = {
     '.##.#..##...#.###..#.###': 'G',
     '#..##..######..##..##..#': 'H',
     '..##...#...#...##..#.##.': 'J',
+    '#..##.#.##..#.#.#.#.#..#': 'K',
     '#...#...#...#...#...####': 'L',
     '###.#..##..####.#...#...': 'P',
     '###.#..##..####.#.#.#..#': 'R',
     '#..##..##..##..##..#.##.': 'U',
     '####...#..#..#..#...####': 'Z'
 }
+
+
+def fold(dots: np.ndarray, index: int, axis: int) -> np.ndarray:
+    dots = np.delete(dots, index, axis)
+    first_half, second_half = np.split(dots, 2, axis)
+    second_half = np.flip(second_half, axis)
+    return np.where(first_half == '#', first_half, second_half)
 
 
 def read_code(code: np.ndarray) -> str:
@@ -59,7 +68,7 @@ def parse_input(input_file: str) -> Tuple[np.ndarray, List[List[str]]]:
                 # Deduce the height from the first fold along the y-axis
                 if height == 0 and instruction[0] == 'y':
                     height = int(instruction[1]) * 2 + 1
-        dots = np.array([['.' for _ in range(width + 1)] for _ in range(height + 1)])
+        dots = np.array([['.' for _ in range(width)] for _ in range(height)])
         for coord in coordinates:
             dots[int(coord[1])][int(coord[0])] = '#'
     return dots, instructions
@@ -73,14 +82,11 @@ def part1(transparent_paper: Tuple[np.ndarray, List[List[str]]]) -> int:
     """
     dots, instructions = transparent_paper
     index = int(instructions[0][1])
-    nb_dots = 0
     if instructions[0][0] == 'x':
-        for i in range(1, index + 1):
-            nb_dots += [dots[j, index - i] == '#' or dots[j, index + i] == '#' for j in range(len(dots))].count(True)
+        dots = fold(dots, index, 1)
     else:
-        for j in range(1, index + 1):
-            nb_dots += [dots[index - j, i] == '#' or dots[index + j, i] == '#' for i in range(len(dots[j]))].count(True)
-    return nb_dots
+        dots = fold(dots, index, 0)
+    return np.count_nonzero(dots == '#')
 
 
 def part2(transparent_paper: Tuple[np.ndarray, List[List[str]]]) -> str:
@@ -93,15 +99,9 @@ def part2(transparent_paper: Tuple[np.ndarray, List[List[str]]]) -> str:
     for axis, index in instructions:
         index = int(index)
         if axis == 'x':
-            for i in range(1, index + 1):
-                for j in range(len(dots)):
-                    dots[j, index - i] = dots[j, index + i] if dots[j, index + i] == '#' else dots[j, index - i]
-            dots = dots[:, 0:index]
+            dots = fold(dots, index, 1)
         else:
-            for j in range(1, index + 1):
-                for i in range(len(dots[0])):
-                    dots[index - j, i] = dots[index + j, i] if dots[index + j, i] == '#' else dots[index - j, i]
-            dots = dots[0:index, :]
+            dots = fold(dots, index, 0)
     return read_code(dots)
 
 
