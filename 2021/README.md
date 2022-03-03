@@ -16,7 +16,7 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7
 | 10  | Syntax Scoring          | [day10.py](Day10/day10.py) | 0.000278 s | 0.002305 s | 0.002455 s |
 | 11  | Dumbo Octopus           | [day11.py](Day11/day11.py) | 0.000230 s | 0.019426 s | 0.051653 s |
 | 12  | Passage Pathing         | [day12.py](Day12/day12.py) | 0.000223 s | 0.018712 s | 0.333444 s |
-| 13  | Transparent Origami     | [day13.py](Day13/day13.py) | 0.195522 s | 0.674842 s | 1.460759 s |
+| 13  | Transparent Origami     | [day13.py](Day13/day13.py) | 0.182104 s | 0.023175 s | 0.031994 s |
 | 14  | Extended Polymerization |                            |            |            |            |
 | 15  | Chiton                  |                            |            |            |            |
 | 16  | Packet Decoder          |                            |            |            |            |
