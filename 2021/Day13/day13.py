@@ -21,6 +21,13 @@ ALPHABET = {
 
 
 def fold(dots: np.ndarray, index: int, axis: int) -> np.ndarray:
+    """
+    Fold the transparent paper.
+    @param dots: Transparent paper marked with random dots.
+    @param index: Index of the line where the fold has to be performed.
+    @param axis: Fold axis. 0 for a fold along the horizontal axis and 1 for a fold along the vertical axis.
+    @return: The folded transparent paper.
+    """
     dots = np.delete(dots, index, axis)
     first_half, second_half = np.split(dots, 2, axis)
     second_half = np.flip(second_half, axis)
