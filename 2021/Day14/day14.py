@@ -29,7 +29,7 @@ def part1(manual: Tuple[str, Dict[str, str]]) -> int:
     """
     polymer, pairs = manual
     pairs_counter = Counter([polymer[i:i+2] for i in range(len(polymer) - 1)])
-    for i in range(10):
+    for _ in range(10):
         temp_counter = pairs_counter.copy()
         for pair in [key for key in pairs_counter.keys() if pairs_counter[key] > 0]:
             pairs_counter[pair] -= temp_counter[pair]
@@ -49,7 +49,7 @@ def part2(manual: Tuple[str, Dict[str, str]]) -> int:
     """
     polymer, pairs = manual
     pairs_counter = Counter([polymer[i:i + 2] for i in range(len(polymer) - 1)])
-    for i in range(40):
+    for _ in range(40):
         temp_counter = pairs_counter.copy()
         for pair in [key for key in pairs_counter.keys() if pairs_counter[key] > 0]:
             pairs_counter[pair] -= temp_counter[pair]
