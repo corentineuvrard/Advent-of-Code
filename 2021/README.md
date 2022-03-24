@@ -18,7 +18,7 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7
 | 12  | Passage Pathing         | [day12.py](Day12/day12.py) | 0.000223 s | 0.018712 s | 0.333444 s |
 | 13  | Transparent Origami     | [day13.py](Day13/day13.py) | 0.182104 s | 0.023175 s | 0.031994 s |
 | 14  | Extended Polymerization | [day14.py](Day14/day14.py) | 0.004348 s | 0.029037 s | 0.096075 s |
-| 15  | Chiton                  |                            |            |            |            |
+| 15  | Chiton                  | [day15.py](Day15/day15.py) | 0.004116 s | 0.133478 s | 2.881320 s |
 | 16  | Packet Decoder          |                            |            |            |            |
 | 17  | Trick Shot              |                            |            |            |            |
 | 18  | Snailfish               |                            |            |            |            |
