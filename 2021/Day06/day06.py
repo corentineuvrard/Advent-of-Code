@@ -8,8 +8,8 @@ def parse_input(input_file: str) -> List[int]:
     @param input_file: Input file to parse.
     @return: List representing the number of fishes for each creation timer (from 0 to 8 days).
     """
-    with open(input_file, "r") as f:
-        creation_timers = Counter(int(timer) for timer in f.readlines()[0].split(","))
+    with open(input_file, 'r') as f:
+        creation_timers = Counter(int(timer) for timer in f.readlines()[0].split(','))
     return [creation_timers[i] if i in creation_timers else 0 for i in range(9)]
 
 
@@ -48,7 +48,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
