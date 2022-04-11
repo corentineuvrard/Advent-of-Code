@@ -101,13 +101,13 @@ def parse_input(input_file: str) -> List[List[Point]]:
     @param input_file: Input file to parse.
     @return: List of endpoints representing vent segments.
     """
-    with open(input_file, "r") as f:
+    with open(input_file, 'r') as f:
         lines = f.readlines()
         points = []
         for line in lines:
             segment = []
             for coord_str in line.split():
-                coord = coord_str.split(",")
+                coord = coord_str.split(',')
                 if len(coord) == 2:
                     coord_x, coord_y = int(coord[0]), int(coord[1])
                     segment.append(Point(coord_x, coord_y))
@@ -155,7 +155,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
