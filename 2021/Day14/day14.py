@@ -10,7 +10,7 @@ def parse_input(input_file: str) -> Tuple[str, Dict[str, str]]:
     """
     polymer_template = None
     pair_insertion = dict()
-    with open(input_file, "r") as f:
+    with open(input_file, 'r') as f:
         lines = f.read().splitlines()
         for line in lines:
             line = line.split()
@@ -65,7 +65,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
