@@ -57,7 +57,7 @@ def parse_input(input_file: str) -> Tuple[np.ndarray, List[List[str]]]:
     """
     instructions = []
     coordinates = []
-    with open(input_file, "r") as f:
+    with open(input_file, 'r') as f:
         lines = f.read().splitlines()
         width, height = 0, 0
         for line in lines:
@@ -116,7 +116,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
