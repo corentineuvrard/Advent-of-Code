@@ -1,4 +1,4 @@
-from typing import Tuple, List
+from typing import Tuple, List, Dict
 
 
 class Board:
@@ -34,7 +34,7 @@ class Board:
     play(draw: List[int]):
         Play bingo with the board until all numbers in a row or a column are marked.
     """
-    def __init__(self, board_id, board_numbers):
+    def __init__(self, board_id: int, board_numbers: Dict[int, Tuple[int, int]]):
         """
         Construct all the necessary attributes for the Board object.
         @param board_id: ID of the board.
@@ -95,9 +95,9 @@ def parse_input(input_file: str) -> Tuple[List[int], List[Board]]:
     @param input_file: Input file to parse.
     @return: List of numbers to be drawn and list of Bingo boards.
     """
-    with open(input_file, "r") as f:
-        file = f.read().split("\n\n")
-        draw = [int(n) for n in file[0].split(",")]
+    with open(input_file, 'r') as f:
+        file = f.read().split('\n\n')
+        draw = [int(n) for n in file[0].split(',')]
         boards = []
         for board_id, board_str in enumerate(file[1:]):
             numbers = {}
@@ -146,7 +146,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
