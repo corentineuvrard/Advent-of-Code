@@ -30,7 +30,7 @@ def parse_input(input_file: str) -> List[List[int]]:
     @param input_file: Input file to parse.
     @return: Matrix of integers representing the risk level throughout the cave.
     """
-    with open(input_file, "r") as f:
+    with open(input_file, 'r') as f:
         lines = f.read().splitlines()
     return [[int(n) for n in line] for line in lines]
 
@@ -102,7 +102,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
