@@ -28,9 +28,9 @@ def parse_input(input_file: str) -> List[Tuple[List[str], List[str]]]:
     @param input_file: Input file to parse.
     @return: List of notes with the signal patterns and the output values for each note.
     """
-    with open(input_file, "r") as f:
+    with open(input_file, 'r') as f:
         lines = f.readlines()
-    return [(line.split("|")[0].split(), line.split("|")[1].split()) for line in lines]
+    return [(line.split('|')[0].split(), line.split('|')[1].split()) for line in lines]
 
 
 def part1(notes: List[Tuple[List[str], List[str]]]) -> int:
@@ -85,7 +85,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
