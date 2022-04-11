@@ -9,16 +9,16 @@ def parse_input(input_file: str) -> DefaultDict[str, List[str]]:
     @return: Dictionary representing the connections between caves.
     """
     connections = defaultdict(list)
-    with open(input_file, "r") as f:
+    with open(input_file, 'r') as f:
         lines = f.read().splitlines()
         for line in lines:
-            caves = line.split("-")
-            if caves[0] != "start" and caves[0] != "end" and caves[1] != "start" and caves[1] != "end":
+            caves = line.split('-')
+            if caves[0] != 'start' and caves[0] != 'end' and caves[1] != 'start' and caves[1] != 'end':
                 connections[caves[0]].append(caves[1])
                 connections[caves[1]].append(caves[0])
-            elif caves[0] == "start" or caves[1] == "end":
+            elif caves[0] == 'start' or caves[1] == 'end':
                 connections[caves[0]].append(caves[1])
-            elif caves[0] == "end" or caves[1] == "start":
+            elif caves[0] == 'end' or caves[1] == 'start':
                 connections[caves[1]].append(caves[0])
     return connections
 
@@ -30,13 +30,13 @@ def part1(connections: DefaultDict[str, List[str]]) -> int:
     @return: Number of paths through the cave system that visit small caves at most once.
     """
     nb_paths = 0
-    stack = [("start", set())]
+    stack = [('start', set())]
     while stack:
         current, visited = stack.pop()
-        if current == "end":
+        if current == 'end':
             nb_paths += 1
         else:
-            if "a" < current[0] < "z":
+            if 'a' < current[0] < 'z':
                 visited = visited.copy()
                 visited.add(current)
             for cave in connections[current]:
@@ -52,13 +52,13 @@ def part2(connections: DefaultDict[str, List[str]]) -> int:
     @return: Number of paths through the cave system that visit small caves at most twice.
     """
     nb_paths = 0
-    stack = [("start", set(), False)]
+    stack = [('start', set(), False)]
     while stack:
         current, visited, double_visit = stack.pop()
-        if current == "end":
+        if current == 'end':
             nb_paths += 1
         else:
-            if "a" < current[0] < "z":
+            if 'a' < current[0] < 'z':
                 visited = visited.copy()
                 visited.add(current)
             for cave in connections[current]:
@@ -73,7 +73,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
