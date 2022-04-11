@@ -36,7 +36,7 @@ def parse_input(input_file: str) -> np.ndarray:
     @param input_file: Input file to parse.
     @return: Grid representing the energy level of octopuses.
     """
-    with open(input_file, "r") as f:
+    with open(input_file, 'r') as f:
         content = f.read()
         lines = content.split()
     return np.array([[int(n) for n in row] for row in lines])
@@ -98,7 +98,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
