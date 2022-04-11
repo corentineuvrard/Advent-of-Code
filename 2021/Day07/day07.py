@@ -8,8 +8,8 @@ def parse_input(input_file: str) -> List[int]:
     @param input_file: Input file to parse.
     @return: List representing the horizontal position of each crab.
     """
-    with open(input_file, "r") as f:
-        positions = [int(position) for position in f.readlines()[0].split(",")]
+    with open(input_file, 'r') as f:
+        positions = [int(position) for position in f.readlines()[0].split(',')]
     return positions
 
 
@@ -44,7 +44,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
