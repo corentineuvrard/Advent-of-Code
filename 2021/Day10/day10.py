@@ -7,7 +7,7 @@ def parse_input(input_file: str) -> List[str]:
     @param input_file: Input file to parse.
     @return: List of chunks.
     """
-    with open(input_file, "r") as f:
+    with open(input_file, 'r') as f:
         content = f.read()
     return content.split()
 
@@ -78,7 +78,7 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    puzzle_input = parse_input("input.txt")
+    puzzle_input = parse_input('input.txt')
     print(part1(puzzle_input))
     print(part2(puzzle_input))
 
