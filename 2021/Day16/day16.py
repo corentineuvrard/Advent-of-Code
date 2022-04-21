@@ -167,8 +167,8 @@ def part1(transmission: str) -> int:
 def part2(transmission: str) -> int:
     """
     Solve part 2.
-    @param
-    @return:
+    @param transmission: Binary string representing the BITS transmission.
+    @return: Result of the calculation represented by all the packets of the BITS transmission.
     """
     packet = Packet(transmission)
     return packet.calculate()
