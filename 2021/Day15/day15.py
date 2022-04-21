@@ -87,7 +87,7 @@ def part2(matrix: List[List[int]]) -> int:
             x = neighbor[0] % width
             y = neighbor[1] % height
             factor = neighbor[0] // width + neighbor[1] // height
-            value = factor * 1 + matrix[y][x]
+            value = factor + matrix[y][x]
             if value > 9:
                 value = value % 10 + 1
             new_cost = costs[current] + value
