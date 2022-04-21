@@ -86,7 +86,6 @@ class Packet:
         Compute all the sub-packets of the current packet representing an operator.
         @param sub_packets_string: Sub-string of the packet string that only includes sub-packets' information.
         @param nb_sub_packets: Number of sub-packets. The number of packets is only known if the length type ID is 1.
-        @type nb_sub_packets: int
         """
         if not nb_sub_packets:
             remaining_bits = len(sub_packets_string)
@@ -145,7 +144,7 @@ def parse_input(input_file: str) -> str:
     """
     Parse input.
     @param input_file: Input file to parse.
-    @return:
+    @return: Binary string representing the BITS transmission.
     """
     binary_string = ''
     with open(input_file, 'r') as f:
