@@ -20,7 +20,7 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7
 | 14  | Extended Polymerization | [day14.py](Day14/day14.py) | 0.004348 s | 0.029037 s | 0.096075 s |
 | 15  | Chiton                  | [day15.py](Day15/day15.py) | 0.004116 s | 0.133478 s | 2.881320 s |
 | 16  | Packet Decoder          | [day16.py](Day16/day16.py) | 0.026500 s | 0.028636 s | 0.025613 s |
-| 17  | Trick Shot              |                            |            |            |            |
+| 17  | Trick Shot              | [day17.py](Day17/day17.py) | 0.000685 s | 0.000053 s | 0.769676 s |
 | 18  | Snailfish               |                            |            |            |            |
 | 19  | Beacon Scanner          |                            |            |            |            |
 | 20  | Trench Map              |                            |            |            |            |
