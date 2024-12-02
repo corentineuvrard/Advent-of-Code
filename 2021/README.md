@@ -2,8 +2,8 @@
 
 Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7:
 
-| Day | Puzzle                  | Solution                   | Parse      | Part 1     | Part 2     |
-| :-- | :---------------------- | :--------------------------| ---------: | ---------: | ---------: |
+| Day | Puzzle                  | Solution                   |      Parse |     Part 1 |     Part 2 |
+|:----|:------------------------|:---------------------------|-----------:|-----------:|-----------:|
 | 1   | Sonar Sweep             | [day01.py](Day01/day01.py) | 0.001113 s | 0.000345 s | 0.000318 s |
 | 2   | Dive!                   | [day02.py](Day02/day02.py) | 0.004287 s | 0.000174 s | 0.000214 s |
 | 3   | Binary Diagnostic       | [day03.py](Day03/day03.py) | 0.000570 s | 0.000876 s | 0.005034 s |
