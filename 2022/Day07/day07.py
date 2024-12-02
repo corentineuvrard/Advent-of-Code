@@ -1,5 +1,4 @@
 from typing import Dict, List, Union
-import time
 
 
 def parse_input(input_file: str) -> Dict[str, List]:
@@ -98,15 +97,9 @@ def solve() -> None:
     """
     Solve the puzzle
     """
-    t0 = time.perf_counter()
     puzzle_input = parse_input('input.txt')
-    t1 = time.perf_counter()
-    print(t1 - t0)
     print(part1(puzzle_input))
-    t2 = time.perf_counter()
-    print(t2 - t1)
     print(part2(puzzle_input))
-    print(time.perf_counter() - t2)
 
 
 solve()
