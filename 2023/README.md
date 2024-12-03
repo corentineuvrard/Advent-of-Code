@@ -5,7 +5,7 @@ Solutions to [Advent of Code 2023](https://adventofcode.com/2023/) in Python:
 | Day | Puzzle                          | Solution                   |      Parse |     Part 1 |     Part 2 |
 |:----|:--------------------------------|:---------------------------|-----------:|-----------:|-----------:|
 | 1   | Trebuchet?!                     | [day01.py](Day01/day01.py) | 0.000484 s | 0.002045 s | 0.005920 s |
-| 2   | Cube Conundrum                  |                            |            |            |            |
+| 2   | Cube Conundrum                  | [day02.py](Day02/day02.py) | 0.001736 s | 0.000103 s | 0.000131 s |
 | 3   | Gear Ratios                     |                            |            |            |            |
 | 4   | Scratchcards                    |                            |            |            |            |
 | 5   | If You Give A Seed A Fertilizer |                            |            |            |            |
