@@ -1,6 +1,6 @@
 # Advent of Code 2024
 
-Solutions to [Advent of Code 2024](https://adventofcode.com/2024/) in Python 3.10:
+Solutions to [Advent of Code 2024](https://adventofcode.com/2024/) in Python:
 
 | Day | Puzzle             | Solution                   |      Parse |     Part 1 |     Part 2 |
 |:----|:-------------------|:---------------------------|-----------:|-----------:|-----------:|

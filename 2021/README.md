@@ -1,6 +1,6 @@
 # Advent of Code 2021
 
-Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python 3.7:
+Solutions to [Advent of Code 2021](https://adventofcode.com/2021/) in Python:
 
 | Day | Puzzle                  | Solution                   |      Parse |     Part 1 |     Part 2 |
 |:----|:------------------------|:---------------------------|-----------:|-----------:|-----------:|
