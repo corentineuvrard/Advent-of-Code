@@ -7,7 +7,7 @@ Solutions to [Advent of Code 2024](https://adventofcode.com/2024/) in Python:
 | 1   | Historian Hysteria | [day01.py](Day01/day01.py) | 0.000960 s | 0.000709 s | 0.000804 s |
 | 2   | Red-Nosed Reports  | [day02.py](Day02/day02.py) | 0.001847 s | 0.000889 s | 0.002511 s |
 | 3   | Mull It Over       | [day03.py](Day03/day03.py) | 0.000215 s | 0.000711 s | 0.000841 s |
-| 4   |                    |                            |            |            |            |
+| 4   | Ceres Search       | [day04.py](Day04/day04.py) | 0.000246 s | 0.029387 s | 0.003271 s |
 | 5   |                    |                            |            |            |            |
 | 6   |                    |                            |            |            |            |
 | 7   |                    |                            |            |            |            |
