@@ -10,7 +10,7 @@ Solutions to [Advent of Code 2024](https://adventofcode.com/2024/) in Python:
 | 4   | Ceres Search       | [day04.py](Day04/day04.py) | 0.000246 s | 0.029387 s | 0.003271 s |
 | 5   | Print Queue        | [day05.py](Day05/day05.py) | 0.001730 s | 0.002207 s | 0.007895 s |
 | 6   | Guardian Gallivant | [day06.py](Day06/day06.py) | 0.000505 s | 0.004033 s | 1.523398 s |
-| 7   | Bridge Repair      | [day07.py](Day07/day07.py) | 0.001943 s | 0.102760 s | 5.726882 s |
+| 7   | Bridge Repair      | [day07.py](Day07/day07.py) | 0.001860 s | 0.099068 s | 5.751030 s |
 | 8   |                    |                            |            |            |            |
 | 9   |                    |                            |            |            |            |
 | 10  |                    |                            |            |            |            |
