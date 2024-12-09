@@ -30,6 +30,9 @@ def is_valid(test_value: int, numbers: List[int], current_value: int = 0, allow_
     if not numbers:
         return current_value == test_value
 
+    if current_value >= test_value:
+        return False
+
     # Recursive case
     next_number = numbers[0]
     remaining_numbers = numbers[1:]
@@ -37,8 +40,8 @@ def is_valid(test_value: int, numbers: List[int], current_value: int = 0, allow_
     if allow_concatenate:
         # Concatenation logic (shifting the digits)
         concatenated_value = current_value * (10 ** len(str(next_number))) + next_number
-        return (is_valid(test_value, remaining_numbers, current_value + next_number) or
-                is_valid(test_value, remaining_numbers, current_value * next_number) or
+        return (is_valid(test_value, remaining_numbers, current_value + next_number, allow_concatenate) or
+                is_valid(test_value, remaining_numbers, current_value * next_number, allow_concatenate) or
                 is_valid(test_value, remaining_numbers, concatenated_value, allow_concatenate))
     else:
         # Only add and multiply
@@ -80,9 +83,16 @@ def solve() -> None:
     """
     Solve the puzzle
     """
+    import time
+    t0 = time.perf_counter()
     puzzle_input = parse_input('input.txt')
+    t1 = time.perf_counter()
+    print(t1 - t0)
     print(part1(puzzle_input))
+    t2 = time.perf_counter()
+    print(t2 - t1)
     print(part2(puzzle_input))
+    print(time.perf_counter() - t2)
 
 
 solve()
