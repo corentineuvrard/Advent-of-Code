@@ -5,13 +5,15 @@
                 body { 
                     display: inline-block;
                     text-align: center;
+                    font-weight: 300;
+                    font-size: 14pt;
                 }
                 a { color: #f0f6fc; }
                 pre {
                     display: inline-block;
                     color: #666666;
                     background-color: #0f0f23;
-                    font-size: calc(8vw);
+                    font-family: "Source Code Pro", monospace;
                 }
                 .calendar-day { color: #cccccc; }
                 .calendar-mark-complete { color: #ffff66; }
