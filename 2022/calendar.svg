@@ -30,11 +30,12 @@
             <pre><!--
                 --><span>  - /\ -  -        -       -     -      -    -          </span>&#10;<!--          
                 --><span> - /  \/\  -    -     -  -    -   -  /\   -     -       </span>&#10;<!--
-                --><span>@@@@@@@@@@#@@@@###@@@@@@@##@@@@@##@@@##@@#@@@@@@@  </span><!--
-                --><span><!--
-                    --><span class="calendar-day">25</span> <!--
-                    --><span class="calendar-mark-complete">*</span><!--
-                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --><span>@@@@@@@@@@#@@@@###@@@@@@@##@@@@@##@@@##@@#@@@@@@@  <!--
+                    --><span><!--
+                        --><span class="calendar-day">25</span> <!--
+                        --><span class="calendar-mark-complete">*</span><!--
+                        --><span class="calendar-mark-verycomplete">*</span><!--
+                    --></span><!--
                 --></span>&#10;<!--
                 --><span>@@@@@@#@@@@@@@@@@@#@@@#@@@@##@#@@@@@#@@@@@@@###@#  <!--
                     --><span class="calendar-day">24</span> <!--
