@@ -45,7 +45,6 @@
                 .calendar-mark-complete { color: #ffff66; }
                 .calendar-mark-verycomplete { color: #ffff66; }
                 .row {
-                    display: table-cell;
                     text-align: center;
                     vertical-align: middle;
                 }
