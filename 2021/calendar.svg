@@ -39,13 +39,13 @@
             </style>
             <div>
                 <pre><!--
-                    --><span><!--
+                    --><span style="display: block;"><!--
                         --><span class="calendar-color-w1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>  <!--
                         --><span class="calendar-day"> 1</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
                     --></span>
-                    <span><!--
+                    <span style="display: block;"><!--
                         --><span class="calendar-color-w2">    .  '     ..  .   ..       ..</span> <!--
                         --><span class="calendar-color-s">.</span> <!--
                         --><span class="calendar-color-w2">.      </span> <!--
