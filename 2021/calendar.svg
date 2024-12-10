@@ -1,24 +1,17 @@
-<svg fill="none" viewBox="0 0 800 600" width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 500" width="800" height="500" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-                body {
-                    font-size: 100;
-                    font-weight: 300;
-                    text-align: center;
+                svg {
+                    background-color: #0f0f23;
                 }
                 pre {
                     align-items: center;
-                    background-color: #0f0f23;
                     color: #666666;
                     display: flex;
                     flex-direction: column;
                     font-family: "Source Code Pro", monospace;
-                    height: 100%;
-                    justify-content: center;
                     margin: 0;
-                    table-layout: fixed
-                    width: 100%;
                 }
                 .calendar-color-g { color: #a47a4d; }
                 .calendar-color-o { color: #c74c30; }
@@ -44,19 +37,15 @@
                 .calendar-day { color: #cccccc; }
                 .calendar-mark-complete { color: #ffff66; }
                 .calendar-mark-verycomplete { color: #ffff66; }
-                .row {
-                    text-align: center;
-                    vertical-align: middle;
-                }
             </style>
-            <pre><!--
-                --><span class="row"><!--
+            <pre>
+                <span><!--
                     --><span class="calendar-color-w1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>  <!--
                     --><span class="calendar-day"> 1</span> <!--
                     --><span class="calendar-mark-complete">*</span><!--
                     --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span>&#10;<!--
-                --><span class="row"><!--
+                --><span><!--
                     --><span class="calendar-color-w2">    .  '     ..  .   ..       ..</span> <!--
                     --><span class="calendar-color-s">.</span> <!--
                     --><span class="calendar-color-w2">.      </span> <!--
