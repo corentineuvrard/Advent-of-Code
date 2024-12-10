@@ -1,0 +1,170 @@
+<svg fill="none" viewBox="0 0 800 550" width="800" height="550" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                svg {
+                    background-color: #0f0f23;
+                }
+                pre {
+                    align-items: center;
+                    color: #666666;
+                    display: flex;
+                    flex-direction: column;
+                    font-family: "Source Code Pro", monospace;
+                    margin: 0;
+                }
+                .calendar-color-l { color: #ccccff; }
+                .calendar-color-n { color: #9b715b; }
+                .calendar-color-w { color: #ffffff; }
+                .calendar-color-y { 
+                    color: #ffff66;
+                    text-shadow: 0 0 5px #ffff66, 0 0 10px #ffff66;
+                }
+                .calendar-day { color: #cccccc; }
+                .calendar-mark-complete { color: #ffff66; }
+                .calendar-mark-verycomplete { color: #ffff66; }
+            </style>
+            <pre><!--
+                --><span>&#10;                         *                         <!--
+                    --><span class="calendar-day">14</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                                 *                 <!--
+                    --><span class="calendar-day">15</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                                    *              <!--
+                    --><span class="calendar-day">16</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                        *                          <!--
+                    --><span class="calendar-day">13</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>              *                                    <!--
+                    --><span class="calendar-day">17</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>        *                                          <!--
+                    --><span class="calendar-day">12</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                 *                                 <!--
+                    --><span class="calendar-day">18</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>      *                                            <!--
+                    --><span class="calendar-day">11</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>            *                                      <!--
+                    --><span class="calendar-day">10</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                      *                            <!--
+                    --><span class="calendar-day">19</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>               *                                   <!--
+                    --><span class="calendar-day"> 9</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                    *                              <!--
+                    --><span class="calendar-day"> 8</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                       *                           <!--
+                    --><span class="calendar-day">20</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                  *                                <!--
+                    --><span class="calendar-day"> 7</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                                  *                <!--
+                    --><span class="calendar-day"> 6</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                                        *          <!--
+                    --><span class="calendar-day">21</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                                           *       <!--
+                    --><span class="calendar-day"> 5</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                            *                      <!--
+                    --><span class="calendar-day">22</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                                   *               <!--
+                    --><span class="calendar-day"> 4</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>               *                                   <!--
+                    --><span class="calendar-day">23</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>                        *                          <!--
+                    --><span class="calendar-day">25</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>            <!--
+                    --><span class="calendar-color-w">'</span>       *     <!--
+                    --><span class="calendar-color-l">-</span>                        <!--
+                    --><span class="calendar-day">24</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>              <!--
+                    --><span class="calendar-color-w">'</span> <!--
+                    --><span class="calendar-color-w">.</span>    <!--
+                    --><span class="calendar-color-l">-</span>     <!--
+                    --><span class="calendar-color-l">-</span>   * <!--
+                    --><span class="calendar-color-w">.</span>                 <!--
+                    --><span class="calendar-day"> 3</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>    <!--
+                    --><span class="calendar-color-n">----@</span>        <!--
+                    --><span class="calendar-color-w">'''..</span><!--
+                    --><span class="calendar-color-y">*</span><!--
+                    --><span class="calendar-color-w">......'''</span>                   <!--
+                    --><span class="calendar-day"> 2</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>  <!--
+                    --><span class="calendar-color-y">*</span> <!--
+                    --><span class="calendar-color-n">!</span> <!--
+                    --><span class="calendar-color-n">/^\</span>                                          <!--
+                    --><span class="calendar-day"> 1</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span><!--
+            --></pre>
+        </div>
+    </foreignObject>
+</svg>          
