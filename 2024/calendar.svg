@@ -1,0 +1,312 @@
+<svg fill="none" viewBox="0 0 800 520" width="800" height="520" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                svg {
+                    background-color: #0f0f23;
+                }
+                pre {
+                    align-items: center;
+                    color: #666666;
+                    display: flex;
+                    flex-direction: column;
+                    font-family: "Source Code Pro", monospace;
+                    margin: 0;
+                }
+                .calendar-color-2g0 { color: #488813; }
+                .calendar-color-2g1 { color: #4d8b03; }
+                .calendar-color-2g2 { color: #7fbd39; }
+                .calendar-color-2g3 { color: #427322; }
+                .calendar-color-2g4 { color: #01461f; }
+                .calendar-color-2u { color: #5eabb4; }
+                .calendar-color-2w { color: #ffffff; }
+                .calendar-color-3a { color: #a5a8af; }
+                .calendar-color-3b { color: #5555bb; }
+                .calendar-color-3g { color: #00cc00; }
+                .calendar-color-3i { color: #a25151; }
+                .calendar-color-3l { color: #ccccff; }
+                .calendar-color-3m { color: #d4dde4; }
+                .calendar-color-3s { color: #e3b585; }
+                .calendar-color-3w { color: #ffffff; }
+                .calendar-color-3y {
+                    color: #ffff66;
+                    text-shadow: 0 0 5px #ffff66, 0 0 10px #ffff66;
+                }
+                .calendar-color-6b { color: #009900; }
+                .calendar-color-6o {
+                    color: #ff9900;
+                    text-shadow: 0 0 5px #ff9900;
+                }
+                .calendar-color-6r {
+                    color: #ff0000;
+                    text-shadow: 0 0 5px #ff0000;
+                }
+                .calendar-color-6t { color: #aaaaaa; }
+                .calendar-color-6u {
+                    color: #0066ff;
+                    text-shadow: 0 0 5px #0066ff;
+                }
+                .calendar-color-6y {
+                    color: #ffff66;
+                    text-shadow: 0 0 5px #ffff66;
+                }
+                .calendar-color-8e { color: #cccccc; }
+                .calendar-color-8i {
+                    color: #ff0000;
+                    text-shadow: 0 0  5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000;
+                }
+                .calendar-color-8n { color: #886655; }
+                .calendar-color-8w { color: #cccccc; }
+                .calendar-color-w { color: #cccccc; }
+                .calendar-day { color: #cccccc; }
+                .calendar-mark-complete { color: #ffff66; }
+                .calendar-mark-verycomplete { color: #ffff66; }
+            </style>
+            <pre><!--
+                --><span>&#10; .-----.          .------------------.</span>&#10;<!--
+                --><span>       <!--
+                    --><span class="calendar-color-w">.--'</span><!--
+                    --><span class="calendar-color-3s">~</span> <!--
+                    --><span class="calendar-color-3s">~</span> <!--
+                    --><span class="calendar-color-3s">~</span><!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">.-'</span> <!--
+                    --><span class="calendar-color-6y">*</span>       <!--
+                    --><span class="calendar-color-8n">\</span>  <!--
+                    --><span class="calendar-color-8n">/</span>     <!--
+                    --><span class="calendar-color-w">'-.</span>  <!--
+                    --><span class="calendar-day"> 1</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>    <!--
+                    --><span class="calendar-color-w">.--'</span><!--
+                    --><span class="calendar-color-3s">~</span>  <!--
+                    --><span class="calendar-color-3g">,</span><!--
+                    --><span class="calendar-color-3y">*</span> <!--
+                    --><span class="calendar-color-3s">~</span> <!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span>  <!--
+                    --><span class="calendar-color-6b">&gt;</span><!--
+                    --><span class="calendar-color-6o">o</span><!--
+                    --><span class="calendar-color-6b">&lt;</span>   <!--
+                    --><span class="calendar-color-8n">\_\_\|_/__/</span>   <!--
+                    --><span class="calendar-color-w">|</span>  <!--
+                    --><span class="calendar-day"> 2</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span><!--
+                    --><span class="calendar-color-w">.---'</span><!--
+                    --><span class="calendar-color-3s">:</span> <!--
+                    --><span class="calendar-color-3s">~</span> <!--
+                    --><span class="calendar-color-3g">'</span><!--
+                    --><span class="calendar-color-3b">(~)</span><!--
+                    --><span class="calendar-color-3g">,</span> <!--
+                    --><span class="calendar-color-3s">~</span><!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span> <!--
+                    --><span class="calendar-color-6b">&gt;</span><!--
+                    --><span class="calendar-color-6r">@</span><!--
+                    --><span class="calendar-color-6b">&gt;</span><!--
+                    --><span class="calendar-color-6u">O</span><!--
+                    --><span class="calendar-color-6b">&lt;</span> <!--
+                    --><span class="calendar-color-8i">o</span><!--
+                    --><span class="calendar-color-8n">-_/</span><!--
+                    --><span class="calendar-color-8e">.</span><!--
+                    --><span class="calendar-color-8w">()</span><!--
+                    --><span class="calendar-color-8n">__------</span><!--
+                    --><span class="calendar-color-w">|</span>  <!--
+                    --><span class="calendar-day"> 3</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span><!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-2g2">#</span><!--
+                    --><span class="calendar-color-2u">..</span><!--
+                    --><span class="calendar-color-2g2">@</span><!--
+                    --><span class="calendar-color-3s">'.</span> <!--
+                    --><span class="calendar-color-3s">~</span> <!--
+                    --><span class="calendar-color-3g">"</span> <!--
+                    --><span class="calendar-color-3g">'</span> <!--
+                    --><span class="calendar-color-3s">~</span> <!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-6b">&gt;</span><!--
+                    --><span class="calendar-color-6u">O</span><!--
+                    --><span class="calendar-color-6b">&gt;</span><!--
+                    --><span class="calendar-color-6o">o</span><!--
+                    --><span class="calendar-color-6b">&lt;</span><!--
+                    --><span class="calendar-color-6r">@</span><!--
+                    --><span class="calendar-color-6b">&lt;</span> <!--
+                    --><span class="calendar-color-8n">\____</span>       <!--
+                    --><span class="calendar-color-3g">.'</span><!--
+                    --><span class="calendar-color-w">|</span>  <!--
+                    --><span class="calendar-day"> 4</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span><!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-2g2">_</span><!--
+                    --><span class="calendar-color-2u">.~.</span><!--
+                    --><span class="calendar-color-2g2">_</span><!--
+                    --><span class="calendar-color-2g3">@</span><!--
+                    --><span class="calendar-color-3s">'..</span> <!--
+                    --><span class="calendar-color-3s">~</span> <!--
+                    --><span class="calendar-color-3s">~</span> <!--
+                    --><span class="calendar-color-3y">*</span><!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span> <!--
+                    --><span class="calendar-color-6t">_|</span> <!--
+                    --><span class="calendar-color-6t">|_</span>    <!--
+                    --><span class="calendar-color-w">..</span><!--
+                    --><span class="calendar-color-8w">\_</span><!--
+                    --><span class="calendar-color-8n">\_</span> <!--
+                    --><span class="calendar-color-3g">..'</span><!--
+                    --><span class="calendar-color-3y">*</span> <!--
+                    --><span class="calendar-color-w">|</span>  <!--
+                    --><span class="calendar-day"> 5</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span><!--
+                    --><span class="calendar-color-w">|</span> <!--
+                    --><span class="calendar-color-2w">|||</span> <!--
+                    --><span class="calendar-color-2g2">#</span><!--
+                    --><span class="calendar-color-2g4">@</span><!--
+                    --><span class="calendar-color-2g1">@</span><!--
+                    --><span class="calendar-color-2g0">@</span><!--
+                    --><span class="calendar-color-3s">'''...</span><!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-3i">...</span>     <!--
+                    --><span class="calendar-color-w">.'</span>  <!--
+                    --><span class="calendar-color-w">'.</span><!--
+                    --><span class="calendar-color-3g">'''..</span><!--
+                    --><span class="calendar-color-3m">/</span><!--
+                    --><span class="calendar-color-3g">..</span><!--
+                    --><span class="calendar-color-w">|</span>  <!--
+                    --><span class="calendar-day"> 6</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span><!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-2g1">@</span><!--
+                    --><span class="calendar-color-2w">~~~</span><!--
+                    --><span class="calendar-color-2g3">#</span><!--
+                    --><span class="calendar-color-2g0">@</span><!--
+                    --><span class="calendar-color-2g1">#</span><!--
+                    --><span class="calendar-color-2g3">@</span><!--
+                    --><span class="calendar-color-2g4">@@</span><!--
+                    --><span class="calendar-color-2g3">@</span>    <!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-3a">/\</span> <!--
+                    --><span class="calendar-color-3i">''.</span>  <!--
+                    --><span class="calendar-color-w">|</span>    <!--
+                    --><span class="calendar-color-w">|</span>   <!--
+                    --><span class="calendar-color-3l">-</span><!--
+                    --><span class="calendar-color-3m">/</span>  <!--
+                    --><span class="calendar-color-3w">:</span><!--
+                    --><span class="calendar-color-w">|</span>  <!--
+                    --><span class="calendar-day"> 7</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>|   .--.        |        |        |    |        |  <!--
+                    --><span class="calendar-day"> 8</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>'---'  |        |        |        |    |        |  <!--
+                    --><span class="calendar-day"> 9</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
+                --></span>&#10;<!--
+                --><span>       |        |        |        |    |        |  <!--
+                    --><span class="calendar-day">10</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>       |        |        |        |    |        |  <!--
+                    --><span class="calendar-day">11</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">12</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">13</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">14</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">15</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">16</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">17</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">18</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">19</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">20</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">21</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">22</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">23</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">24</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+                --><span>                                                   <!--
+                    --><span class="calendar-day">25</span> <!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
+                --></span>&#10;<!--
+            --></pre>
+        </div>
+    </foreignObject>
+</svg>          
