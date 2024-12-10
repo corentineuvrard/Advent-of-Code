@@ -39,6 +39,6 @@
     <h2>❄️ 🦌🛷 ❄️</h2>
     <picture>
         <source media="(min-width: 800px)" srcset="calendar.svg">
-        <img src="calendaar.svg" width="800" height="550">
+        <img src="calendar.svg" width="800" height="570">
     </picture>
 </div>
