@@ -7,7 +7,6 @@
                     font-weight: 300;
                     text-align: center;
                 }
-                a { color: #f0f6fc; }
                 pre {
                     align-items: center;
                     background-color: #0f0f23;
@@ -20,6 +19,10 @@
                     margin: 0;
                     table-layout: fixed
                     width: 100%;
+                }
+                span {
+                    display: table-row;
+                    text-align: center;
                 }
                 .calendar-color-g { color: #a47a4d; }
                 .calendar-color-o { color: #c74c30; }
