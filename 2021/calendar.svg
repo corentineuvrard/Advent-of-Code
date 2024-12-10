@@ -3,13 +3,13 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 body { 
-                    display: flex;
                     text-align: center;
                     font-weight: 300;
                     font-size: calc(800 / 10);
                 }
                 a { color: #f0f6fc; }
                 pre {
+		    		display: flex;
 					align-items: center;
 					justify-content: center;
 					margin: 0;
