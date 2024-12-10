@@ -3,26 +3,24 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 body {
-                    text-align: center;
-                    font-weight: 300;
                     font-size: calc(800 / 10);
+                    font-weight: 300;
+                    text-align: center;
                 }
                 a { color: #f0f6fc; }
                 pre {
+                    align-items: center;
+                    background-color: #0f0f23;
+                    color: #666666;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
+                    font-family: "Source Code Pro", monospace;
+                    height: 100%;
                     justify-content: center;
                     margin: 0;
+                    table-layout: fixed
                     width: 100%;
-                    height: 100%;
-                    color: #666666;
-                    background-color: #0f0f23;
-                    font-family: "Source Code Pro", monospace;
                 }
-                .calendar-day { color: #cccccc; }
-                .calendar-mark-complete { color: #ffff66; }
-                .calendar-mark-verycomplete { color: #ffff66; }
                 .calendar-color-g { color: #a47a4d; }
                 .calendar-color-o { color: #c74c30; }
                 .calendar-color-r { color: #ff0000; }
@@ -44,6 +42,9 @@
                 .calendar-color-w15 { color: #002e6f; }
                 .calendar-color-w16 { color: #00296b; }
                 .calendar-color-w17 { color: #002566; }
+                .calendar-day { color: #cccccc; }
+                .calendar-mark-complete { color: #ffff66; }
+                .calendar-mark-verycomplete { color: #ffff66; }
             </style>
             <pre><!--
                 --><span><!--
