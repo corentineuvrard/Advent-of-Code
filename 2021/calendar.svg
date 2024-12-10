@@ -44,7 +44,7 @@
                         --><span class="calendar-day"> 1</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w2">    .  '     ..  .   ..       ..</span> <!--
                         --><span class="calendar-color-s">.</span> <!--
@@ -53,7 +53,7 @@
                         --><span class="calendar-day"> 2</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w3">     .. .  ..'     '        ...</span> <!--
                         --><span class="calendar-color-s">.</span> <!--
@@ -62,7 +62,7 @@
                         --><span class="calendar-day"> 3</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w4"> ..         .  '  .      .  .  </span> <!--
                         --><span class="calendar-color-s">.'</span> <!--
@@ -71,7 +71,7 @@
                         --><span class="calendar-day"> 4</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w5">.  . ..   '  .  '    .''     </span> <!--
                         --><span class="calendar-color-o">.</span><!--
@@ -83,21 +83,21 @@
                         --><span class="calendar-day"> 5</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w6">   .              '.  . .   </span> <!--
                         --><span class="calendar-color-g">:</span>                     <!--
                         --><span class="calendar-day"> 6</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w7">     ~  .    .   .       .</span> <!--
                         --><span class="calendar-color-g">:'</span>                      <!--
                         --><span class="calendar-day"> 7</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w8"> .      .         .     . </span>  <!--
                         --><span class="calendar-color-g">'''''.....</span>  <!--
@@ -107,7 +107,7 @@
                         --><span class="calendar-day"> 8</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w9">            .   .    ~ ..</span> <!--
                         --><span class="calendar-color-g">:'..</span>  <!--
@@ -117,7 +117,7 @@
                         --><span class="calendar-day"> 9</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w10">  .      .    .   .  .   </span> <!--
                         --><span class="calendar-color-g">:</span>   <!--
@@ -128,7 +128,7 @@
                         --><span class="calendar-day">10</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w11">   .  .          .   .   </span> <!--
                         --><span class="calendar-color-g">:</span>             <!--
@@ -137,7 +137,7 @@
                         --><span class="calendar-day">11</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w12">. . '  '    .~       . .</span> <!--
                         --><span class="calendar-color-g">:</span>       <!--
@@ -147,7 +147,7 @@
                         --><span class="calendar-day">12</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w13">   .    ..            </span> <!--
                         --><span class="calendar-color-g">.'</span>    <!--
@@ -157,7 +157,7 @@
                         --><span class="calendar-day">13</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w14"> . .  .   '   .      </span> <!--
                         --><span class="calendar-color-g">:</span> <!--
@@ -169,7 +169,7 @@
                         --><span class="calendar-day">14</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-w15"> .         .   .  ~  </span> <!--
                         --><span class="calendar-color-g">:'</span> <!--
@@ -179,7 +179,7 @@
                         --><span class="calendar-day">15</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span><!--
                         --><span class="calendar-color-g">'.'.</span> <!--
                         --><span class="calendar-color-w16">   '    . </span> <!--
@@ -188,7 +188,7 @@
                         --><span class="calendar-day">16</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span>   <!--
                         --><span class="calendar-color-g">:</span> <!--
                         --><span class="calendar-color-w17">.         </span> <!--
@@ -197,42 +197,42 @@
                         --><span class="calendar-day">17</span> <!--
                         --><span class="calendar-mark-complete">*</span><!--
                         --><span class="calendar-mark-verycomplete">*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span>   :        . ..'                                  <!--
                         --><span class="calendar-day">18</span> <!--
                         --><span>*</span><!--
                         --><span>*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span>   '. . . .   :                                    <!--
                         --><span class="calendar-day">19</span> <!--
                         --><span>*</span><!--
                         --><span>*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span>    '.        :                                    <!--
                         --><span class="calendar-day">20</span> <!--
                         --><span>*</span><!--
                         --><span>*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span>      :  .   :                                     <!--
                         --><span class="calendar-day">21</span> <!--
                         --><span>*</span><!--
                         --><span>*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span>      '.  .  :                                     <!--
                         --><span class="calendar-day">22</span> <!--
                         --><span>*</span><!--
                         --><span>*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span>       : .  .'                                     <!--
                         --><span class="calendar-day">23</span> <!--
                         --><span>*</span><!--
                         --><span>*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span>       :   .'                                      <!--
                         --><span class="calendar-day">24</span> <!--
                         --><span>*</span><!--
                         --><span>*</span><!--
-                    --></span><br><!--
+                    --></span><!--
                     --><span>       :..:                                        <!--
                         --><span class="calendar-day">25</span> <!--
                         --><span>*</span><!--
