@@ -8,10 +8,9 @@ def parse_input(input_file: str) -> List[List[Tuple[int, int]]]:
     @return: List representing the section assignments for each pair of Elves.
     """
     with open(input_file, 'r') as f:
-        lines = f.readlines()
         assignments = []
-        for line in lines:
-            pair = line[:-1].split(',')
+        for line in f:
+            pair = line.strip().split(',')
             assignment = []
             for sections_range in pair:
                 sections = sections_range.split('-')

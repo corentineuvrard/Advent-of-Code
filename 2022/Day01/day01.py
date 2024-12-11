@@ -8,15 +8,16 @@ def parse_input(input_file: str) -> List[List[int]]:
     @return: List representing the calories of the food carried by the elves.
     """
     with open(input_file, 'r') as f:
-        lines = f.readlines()
         calories = []
         elf_calories = []
-        for line in lines:
+        for line in f:
             if line == '\n':
                 calories.append(elf_calories)
                 elf_calories = []
             else:
-                elf_calories.append(int(line[:-1]))
+                elf_calories.append(int(line.strip()))
+        calories.append(elf_calories)
+
     return calories
 
 
