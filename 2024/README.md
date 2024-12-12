@@ -13,7 +13,7 @@
 |  5  |      Print Queue      | [day05.py](Day05/day05.py) | 0.001730 s | 0.002207 s | 0.007895 s |  ⭐⭐   |
 |  6  |  Guardian Gallivant   | [day06.py](Day06/day06.py) | 0.000505 s | 0.004033 s | 1.523398 s |  ⭐⭐   |
 |  7  |     Bridge Repair     | [day07.py](Day07/day07.py) | 0.001860 s | 0.099068 s | 5.751030 s |  ⭐⭐   |
-|  8  | Resonant Collinearity |                            |            |            |            |       |
+|  8  | Resonant Collinearity | [day08.py](Day08/day08.py) | 0.000285 s | 0.000617 s | 0.000368 s |  ⭐⭐   |
 |  9  |    Disk Fragmenter    |                            |            |            |            |       |
 | 10  |        Hoof It        |                            |            |            |            |       |
 | 11  |                       |                            |            |            |            |       |
@@ -31,12 +31,12 @@
 | 23  |                       |                            |            |            |            |       |
 | 24  |                       |                            |            |            |            |       |
 | 25  |                       |                            |            |            |            |       |
-|     |                       |                            |            |            |            |  14⭐  |
+|     |                       |                            |            |            |            |  16⭐  |
 
 </div>
 
 <div align="center">
-    <h2>❄️ 🦌🛷 ❄️</h2>
+    <h2>❄️ Calendar ❄️</h2>
     <picture>
         <source media="(min-width: 800px)" srcset="calendar.svg">
         <img src="calendar.svg" width="800" height="560">

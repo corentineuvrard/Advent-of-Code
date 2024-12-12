@@ -27,6 +27,10 @@
                 .calendar-color-3l { color: #ccccff; }
                 .calendar-color-3m { color: #d4dde4; }
                 .calendar-color-3s { color: #e3b585; }
+                .calendar-color-3v {
+                    color: #df2308;
+                    text-shadow: 0 0 5px #df2308, 0 0 10px #df2308;
+                }
                 .calendar-color-3w { color: #ffffff; }
                 .calendar-color-3y {
                     color: #ffff66;
@@ -216,15 +220,31 @@
                     --><span class="calendar-mark-complete">*</span><!--
                     --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span>&#10;<!--
-                --><span>|   .--.        |        |        |    |        |  <!--
+                --><span><!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-2u">~~.</span><!--
+                    --><span class="calendar-color-w">.--.</span> _____  <!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-3y">*</span> <!--
+                    --><span class="calendar-color-3a">/</span><!--
+                    --><span class="calendar-color-3v">~</span><!--
+                    --><span class="calendar-color-3a">\</span> <!--
+                    --><span class="calendar-color-3i">'.</span><!--
+                    --><span class="calendar-color-w">|</span>    <!--
+                    --><span class="calendar-color-w">|</span> <!--
+                    --><span class="calendar-color-3l">-</span> <!--
+                    --><span class="calendar-color-3m">/</span>  <!--
+                    --><span class="calendar-color-3w">.'</span><!--
+                    --><span class="calendar-color-w">|</span>  <!--
                     --><span class="calendar-day"> 8</span> <!--
                     --><span class="calendar-mark-complete">*</span><!--
                     --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span>&#10;<!--
                 --><span>'---'  |        |        |        |    |        |  <!--
                     --><span class="calendar-day"> 9</span> <!--
-                    --><span class="calendar-mark-complete">*</span><!--
-                    --><span class="calendar-mark-verycomplete">*</span><!--
+                    --><span>*</span><!--
+                    --><span>*</span><!--
                 --></span>&#10;<!--
                 --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">10</span> <!--
