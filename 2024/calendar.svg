@@ -241,10 +241,24 @@
                     --><span class="calendar-mark-complete">*</span><!--
                     --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span>&#10;<!--
-                --><span>'---'  |        |        |        |    |        |  <!--
+                --><span><!--
+                    --><span class="calendar-color-w">'---'</span>  <!--
+                    --><span class="calendar-color-w">|</span>|[][]_\-<!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-3v">~</span><!--
+                    --><span class="calendar-color-3a">/</span> <!--
+                    --><span class="calendar-color-3y">*</span> <!--
+                    --><span class="calendar-color-3a">\</span> <!--
+                    --><span class="calendar-color-3i">:</span><!--
+                    --><span class="calendar-color-w">|</span>    <!--
+                    --><span class="calendar-color-w">|</span>  <!--
+                    --><span class="calendar-color-3y">*</span><!--
+                    --><span class="calendar-color-3w">..'</span>  <!--
+                    --><span class="calendar-color-w">|</span>  <!--
                     --><span class="calendar-day"> 9</span> <!--
-                    --><span>*</span><!--
-                    --><span>*</span><!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span>&#10;<!--
                 --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">10</span> <!--
@@ -256,7 +270,7 @@
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span>&#10;<!--
-                --><span>                                                   <!--
+                --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">12</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
