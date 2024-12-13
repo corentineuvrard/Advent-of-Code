@@ -30,7 +30,7 @@ It’s a perfect opportunity to hone your coding skills and share the joy of pro
 | 🎅 [2021](2021) |   17/25    |  34⭐  | Python 🐍 |
 | 🎅 [2022](2022) |    8/25    |  16⭐  | Python 🐍 |
 | 🎅 [2023](2023) |    2/25    |  4⭐   | Python 🐍 |
-| 🎅 [2024](2024) |    9/25    |  18⭐  | Python 🐍 |
+| 🎅 [2024](2024) |   10/25    |  20⭐  | Python 🐍 |
 
 **Note:**<br>
 *The execution times provided in each repository are based on my specific inputs.<br>
