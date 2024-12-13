@@ -13,6 +13,7 @@
                     font-family: "Source Code Pro", monospace;
                     margin: 0;
                 }
+                .calendar-color-1w1 { color: #00c8ff; }
                 .calendar-color-2g0 { color: #488813; }
                 .calendar-color-2g1 { color: #4d8b03; }
                 .calendar-color-2g2 { color: #7fbd39; }
@@ -260,10 +261,20 @@
                     --><span class="calendar-mark-complete">*</span><!--
                     --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span>&#10;<!--
-                --><span>       |        |        |        |    |        |  <!--
+                --><span>       <!--
+                    --><span class="calendar-color-w">|</span>------- <!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span>   <!--
+                    --><span class="calendar-color-3a">/\</span> <!--
+                    --><span class="calendar-color-3i">.'</span><!--
+                    --><span class="calendar-color-w">|</span>    <!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-3w">'''</span><!--
+                    --><span class="calendar-color-1w1">~~~~~</span><!--
+                    --><span class="calendar-color-w">|</span>  <!--
                     --><span class="calendar-day">10</span> <!--
-                    --><span>*</span><!--
-                    --><span>*</span><!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span>&#10;<!--
                 --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">11</span> <!--
