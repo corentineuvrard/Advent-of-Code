@@ -14,10 +14,10 @@
 |  6  |  Guardian Gallivant   | [day06.py](Day06/day06.py) | 0.000505 s | 0.004033 s | 1.523398 s |  ⭐⭐   |
 |  7  |     Bridge Repair     | [day07.py](Day07/day07.py) | 0.001860 s | 0.099068 s | 5.751030 s |  ⭐⭐   |
 |  8  | Resonant Collinearity | [day08.py](Day08/day08.py) | 0.000285 s | 0.000617 s | 0.000368 s |  ⭐⭐   |
-|  9  |    Disk Fragmenter    |                            |            |            |            |       |
+|  9  |    Disk Fragmenter    | [day09.py](Day09/day09.py) | 0.025542 s | 0.025838 s | 0.463407 s |  ⭐⭐   |
 | 10  |        Hoof It        |                            |            |            |            |       |
-| 11  |                       |                            |            |            |            |       |
-| 12  |                       |                            |            |            |            |       |
+| 11  |   Plutonian Pebbles   |                            |            |            |            |       |
+| 12  |     Garden Groups     |                            |            |            |            |       |
 | 13  |                       |                            |            |            |            |       |
 | 14  |                       |                            |            |            |            |       |
 | 15  |                       |                            |            |            |            |       |
@@ -31,7 +31,7 @@
 | 23  |                       |                            |            |            |            |       |
 | 24  |                       |                            |            |            |            |       |
 | 25  |                       |                            |            |            |            |       |
-|     |                       |                            |            |            |            |  16⭐  |
+|     |                       |                            |            |            |            |  18⭐  |
 
 </div>
 
