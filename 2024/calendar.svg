@@ -13,7 +13,23 @@
                     font-family: "Source Code Pro", monospace;
                     margin: 0;
                 }
+                .calendar-color-0l { color: #ccccff; }
+                .calendar-color-0r { color: #ff0000; }
+                .calendar-color-0r::before {
+                    color: #ffff66;
+                    content: "*";
+                    position: absolute;
+                    text-shadow:
+                        0 0 25px #ffff66,
+                        0 0 20px #ffff66,
+                        0 0 15px #ffff66,
+                        0 0 10px #ffff66,
+                        0 0 5px #ffff66;
+                    transform: translate(-.5px,-.6em) scale(.5);
+                }
+                .calendar-color-1s { color: #ffffff; }
                 .calendar-color-1w1 { color: #00c8ff; }
+                .calendar-color-1w2 { color: #00b5ed; }
                 .calendar-color-2g0 { color: #488813; }
                 .calendar-color-2g1 { color: #4d8b03; }
                 .calendar-color-2g2 { color: #7fbd39; }
@@ -30,12 +46,16 @@
                 .calendar-color-3s { color: #e3b585; }
                 .calendar-color-3v {
                     color: #df2308;
-                    text-shadow: 0 0 5px #df2308, 0 0 10px #df2308;
+                    text-shadow:
+                        0 0 5px #df2308,
+                        0 0 10px #df2308;
                 }
                 .calendar-color-3w { color: #ffffff; }
                 .calendar-color-3y {
                     color: #ffff66;
-                    text-shadow: 0 0 5px #ffff66, 0 0 10px #ffff66;
+                    text-shadow:
+                        0 0 5px #ffff66,
+                        0 0 10px #ffff66;
                 }
                 .calendar-color-6b { color: #009900; }
                 .calendar-color-6o {
@@ -58,7 +78,10 @@
                 .calendar-color-8e { color: #cccccc; }
                 .calendar-color-8i {
                     color: #ff0000;
-                    text-shadow: 0 0  5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000;
+                    text-shadow:
+                        0 0  5px #ff0000,
+                        0 0 10px #ff0000,
+                        0 0 15px #ff0000;
                 }
                 .calendar-color-8n { color: #886655; }
                 .calendar-color-8w { color: #cccccc; }
@@ -276,52 +299,65 @@
                     --><span class="calendar-mark-complete">*</span><!--
                     --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span>&#10;<!--
-                --><span>       |        |        |        |    |        |  <!--
+                --><span>       <!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-0l">.......</span><!--
+                    --><span class="calendar-color-0r">|</span><!--
+                    --><span class="calendar-color-w">|</span>        <!--
+                    --><span class="calendar-color-w">|</span><!--
+                    --><span class="calendar-color-3a">/\</span> <!--
+                    --><span class="calendar-color-3i">..'</span>  <!--
+                    --><span class="calendar-color-w">|</span>    <!--
+                    --><span class="calendar-color-w">|</span> <!--
+                    --><span class="calendar-color-1w2">.</span> <!--
+                    --><span class="calendar-color-1s">.</span>  <!--
+                    --><span class="calendar-color-1w2">.</span> <!--
+                    --><span class="calendar-color-w">|</span>  <!--
                     --><span class="calendar-day">11</span> <!--
-                    --><span>*</span><!--
-                    --><span>*</span><!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span>&#10;<!--
                 --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">12</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span>&#10;<!--
-                --><span>                                                   <!--
+                --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">13</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span>&#10;<!--
-                --><span>                                                   <!--
+                --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">14</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span>&#10;<!--
-                --><span>                                                   <!--
+                --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">15</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span>&#10;<!--
-                --><span>                                                   <!--
+                --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">16</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span>&#10;<!--
-                --><span>                                                   <!--
+                --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">17</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span>&#10;<!--
-                --><span>                                                   <!--
+                --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">18</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span>&#10;<!--
-                --><span>                                                   <!--
+                --><span>       |        |        |        |    |        |  <!--
                     --><span class="calendar-day">19</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span>&#10;<!--
-                --><span>                                                   <!--
+                --><span>       |        |        |        '.  .'        |  <!--
                     --><span class="calendar-day">20</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
