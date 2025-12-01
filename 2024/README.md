@@ -25,12 +25,12 @@
 | 17  | Chronospatial Computer |                            |            |            |            |       |
 | 18  |        RAM Run         |                            |            |            |            |       |
 | 19  |      Linen Layout      |                            |            |            |            |       |
-| 20  |                        |                            |            |            |            |       |
-| 21  |                        |                            |            |            |            |       |
-| 22  |                        |                            |            |            |            |       |
-| 23  |                        |                            |            |            |            |       |
-| 24  |                        |                            |            |            |            |       |
-| 25  |                        |                            |            |            |            |       |
+| 20  |     Race Condition     |                            |            |            |            |       |
+| 21  |    Keypad Conundrum    |                            |            |            |            |       |
+| 22  |     Monkey Market      |                            |            |            |            |       |
+| 23  |       LAN Party        |                            |            |            |            |       |
+| 24  |     Crossed Wires      |                            |            |            |            |       |
+| 25  |     Code Chronicle     |                            |            |            |            |       |
 |     |                        |                            |            |            |            |  22⭐  |
 
 </div>
