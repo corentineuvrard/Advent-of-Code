@@ -15,6 +15,7 @@
                 }
                 .calendar-color-a { color: #999; }
                 .calendar-color-d { color: #a74; }
+                .calendar-color-e { color: #0aa; }
                 .calendar-color-f { color: #090; }
                 .calendar-color-g { color: #0f0; }
                 .calendar-color-k { color: #666; }
@@ -196,33 +197,50 @@
                     --><span class="calendar-mark-complete">*</span><!--
                     --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span><!--
-                --><span> ||   ____________    _______________________&#10;_||__/            \_  |      |~             |      <!--
+                --><span> <!--
+                    --><span class="calendar-color-f">||</span>   ____________    _______________________           &#10;<!--
+                    --><span class="calendar-color-a">_</span><!--
+                    --><span class="calendar-color-f">||</span><!--
+                    --><span class="calendar-color-a">__</span>/            \_  |      |~             |      <!--
                     --><span class="calendar-day"> 6</span> <!--
-                    --><span>*</span><!--
-                    --><span>*</span><!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span><!--
-                --><span>|   |   1  2  3    |  |     / \             |____&#10;|___]__[]_[]_[]__&lt;&gt;|  |    |H_/|\   \\\\\\  | | |  <!--
+                --><span><!--
+                    --><span class="calendar-color-a">|</span><!--
+                    --><span class="calendar-color-g">^</span><!--
+                    --><span class="calendar-color-v">@</span> <!--
+                    --><span class="calendar-color-a">|</span>   1  2  3    |  |     / \             |____       &#10;<!--
+                    --><span class="calendar-color-a">|</span><!--
+                    --><span class="calendar-color-r">&amp;</span><!--
+                    --><span class="calendar-color-y">%</span><!--
+                    --><span class="calendar-color-e">;</span><!--
+                    --><span class="calendar-color-m">]</span>__[]_[]_[]__&lt;&gt;|  |    |H_/|\   \\\\\\  | | |  <!--
                     --><span class="calendar-day"> 7</span> <!--
                     --><span>*</span><!--
                     --><span>*</span><!--
                 --></span><!--
-                --><span>                      |&lt;&gt;__|H__|_\__|_____|_[_O_|&#10; __________________________                   |    <!--
+                --><span>                      |&lt;&gt;__|H__|_\__|_____|_[_O_|       &#10;__________________________                   |    <!--
                     --><span class="calendar-day"> 8</span> <!--
-                    --><span>*</span><!--
-                    --><span>*</span><!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span><!--
-                --><span>/      ______         __  |  _________________O__&#10;[     |(__) [         ] \ |__|  [  ]          | |  <!--
+                --><span>/      ______         __  |  _________________O__       &#10;[     |(__) [         ] \ |__|  [  ]          | |  <!--
                     --><span class="calendar-day"> 9</span> <!--
-                    --><span>*</span><!--
-                    --><span>*</span><!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span><!--
-                --><span>o=====|_____o=========o_|_[__]_____-/_-/_-/___|_|       &#10;                                                   <!--
-                    --><span class="calendar-day">10</span><!--
+                --><span>o=====|_____o=========o_|_[__]_____-/_-/_-/___|_|       &#10;_________||______                                  <!--
+                    --><span class="calendar-day">10</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span><!--
-                --><span>                                                        &#10;                                                   <!--
-                    --><span class="calendar-day">11</span><!--
+                --><span>|  ___          | |                            |        &#10;|_|   |_(:::::)_| |   ^      ^      ^      ^   |   <!--
+                    --><span class="calendar-day">11</span> <!--
+                    --><span class="calendar-mark-complete">*</span><!--
+                    --><span class="calendar-mark-verycomplete">*</span><!--
                 --></span><!--
-                --><span>                                                        &#10;                                                   <!--
+                --><span>    |      .--.   |  &lt;^&gt;    &lt;^&gt;    &lt;^&gt;    &lt;^&gt;  |        &#10;    '------'  '---#_&lt;&lt;^&gt;&gt;__&lt;&lt;^&gt;&gt;__&lt;&lt;^&gt;&gt;__&lt;&lt;^&gt;&gt;_|   <!--
                     --><span class="calendar-day">12</span><!--
                 --></span><!--
             --></pre>
