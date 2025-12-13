@@ -12,13 +12,13 @@
 |  4  | Printing Department | [day04.py](Day04/day04.py) | 0.003056 s | 0.014393 s | 0.626430 s |  ⭐⭐   |
 |  5  |      Cafeteria      | [day05.py](Day05/day05.py) | 0.000870 s | 0.004711 s | 0.000074 s |  ⭐⭐   |
 |  6  |   Trash Compactor   | [day06.py](Day06/day06.py) | 0.000152 s | 0.000044 s | 0.000033 s |  ⭐⭐   |
-|  7  |    Laboratories     |                            |            |            |            |       |
+|  7  |    Laboratories     | [day07.py](Day07/day07.py) | 0.000419 s | 0.002368 s | 0.004313 s |  ⭐⭐   |
 |  8  |     Playground      |                            |            |            |            |       |
 |  9  |    Movie Theater    |                            |            |            |            |       |
-| 10  |                     |                            |            |            |            |       |
-| 11  |                     |                            |            |            |            |       |
-| 12  |                     |                            |            |            |            |       |
-|     |                     |                            |            |            |            |  12⭐  |
+| 10  |       Factory       |                            |            |            |            |       |
+| 11  |       Reactor       |                            |            |            |            |       |
+| 12  | Christmas Tree Farm |                            |            |            |            |       |
+|     |                     |                            |            |            |            |  14⭐  |
 
 </div>
 
