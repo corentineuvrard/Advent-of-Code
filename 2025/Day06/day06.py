@@ -5,7 +5,7 @@ def parse_input(input_file: str) -> list[str]:
     """
     Parse input.
     @param input_file: Input file to parse.
-    @return:
+    @return: Math worksheet of the youngest cephalopod. 
     """
     with open(input_file, 'r') as f:
         return [line.strip('\n') for line in f]
@@ -14,8 +14,9 @@ def parse_input(input_file: str) -> list[str]:
 def part1(worksheet: list[str]) -> int:
     """
     Solve part 1.
-    @param
-    @return:
+    @param worksheet: Math worksheet of the youngest cephalopod.
+    @return: Grand total found by adding together all of the answers to
+        the individual problems.
     """
     worksheet = [line.split() for line in worksheet]
 
@@ -33,8 +34,9 @@ def part1(worksheet: list[str]) -> int:
 def part2(worksheet: list[str]) -> int:
     """
     Solve part 2.
-    @param
-    @return:
+    @param worksheet: Math worksheet of the youngest cephalopod.
+    @return: Grand total found by adding together all of the answers to
+        the individual problems.
     """
     worksheet = [list(line) for line in worksheet]
 
@@ -61,7 +63,14 @@ def part2(worksheet: list[str]) -> int:
     return grand_total + calculate(numbers, operator)
 
 
-def calculate(numbers: list[int], operator: str):
+def calculate(numbers: list[int], operator: str) -> int:
+    """
+    Calculate the sum or the product of all numbers based on the given
+    operator.
+    :param numbers: List of numbers of a specific problem.
+    :param operator: Operator used for the calculation ('+' or '*').
+    :return: Result of the calculation of the given problem.
+    """
     if operator == '+':
         return sum(numbers)
     return prod(numbers)
